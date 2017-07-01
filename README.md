@@ -2,7 +2,7 @@
     A small python project to check if I understand elementary neural network \
 and backprobagation.\
     I am using MNIST dataset,cross entropy loss,Relu neuron and simple \
-    gradient descent\
+    gradient descent.\
     this simple neural netword only comprise three layer,\
     datalayer,hidden layer and loss layer.\
     
