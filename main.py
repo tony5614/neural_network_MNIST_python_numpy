@@ -75,7 +75,7 @@ def relu(z):
 def d_relu(z):
     relu_dz=z.copy()
     relu_dz[np.where(relu_dz>0)]=1
-    relu_dz[np.where(relu_dz=<0)]=0
+    relu_dz[np.where(relu_dz<=0)]=0
     return relu_dz
     
 
