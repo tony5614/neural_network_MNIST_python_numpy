@@ -100,7 +100,7 @@ mini_batch=32
 y_list=np.array([])
 r_list=np.array([])
 
-for i in range(0,60000):
+for i in range(0,999999999):
     #one update
     batch_loss=0.0
     total_loss=0.0
